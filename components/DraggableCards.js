@@ -70,40 +70,4 @@ export function DraggableCardDemo() {
       ))}
     </DraggableCardContainer>
   );
-        }      className: "absolute top-20 right-[35%] rotate-[2deg]",
-    },
-    {
-      title: "Ash Ketchum",
-      image:
-        "https://i.pinimg.com/1200x/62/e7/13/62e71368b711f43dc3ab967c1c6a17bb.jpg",
-      className: "absolute top-24 left-[45%] rotate-[-7deg]",
-    },
-    {
-      title: "Kakashi Hatake",
-      image:
-        "https://i.pinimg.com/736x/6b/4b/cc/6b4bcc4bc8b66fc466310c29c2c99eeb.jpg",
-      className: "absolute top-8 left-[30%] rotate-[4deg]",
-    },
-  ];
-  return (
-    <DraggableCardContainer
-      className="relative flex min-h-screen w-full items-center justify-center overflow-clip">
-      <p
-        className="absolute top-1/2 mx-auto max-w-sm -translate-y-3/4 text-center text-2xl font-black text-neutral-400 md:text-4xl dark:text-neutral-800">
-       A place where someone still thinks about you is a place you can call home.
-      </p>
-      {items.map((item) => (
-        <DraggableCardBody key={item.title} className={item.className}>
-          <img
-            src={item.image}
-            alt={item.title}
-            className="pointer-events-none relative z-10 h-80 w-80 object-cover" />
-          <h3
-            className="mt-4 text-center text-2xl font-bold text-neutral-700 dark:text-neutral-300">
-            {item.title}
-          </h3>
-        </DraggableCardBody>
-      ))}
-    </DraggableCardContainer>
-  );
-}
+        }
