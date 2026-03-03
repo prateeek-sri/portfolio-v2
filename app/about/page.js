@@ -13,7 +13,6 @@ import Rocket from "@/public/Rocket.svg";
 import Sparkles from "@/public/Sparkles.svg";
 import love_black from "@/public/love-black.svg";
 import love_white from "@/public/love-white.svg";
-import { DraggableCardDemo } from "@/components/DraggableCards";
 
 export default function About() {
   const { isDark, toggleTheme } = useTheme();
@@ -107,15 +106,13 @@ export default function About() {
             </p>
 
             <div>
-              <DraggableCardDemo />
+             
             </div>
             <p className="text-gray-400 select-none font-semibold mb-1 dark:text-white/30 ">
               Contact
             </p>
 
             <p className="">
-              While I may not be a widely recognized figure, i am readily
-              available for connection on my social media platforms. <br />
               You can contact me on the{" "}
               <span className="text-red-700 font-bold">GMail</span>{" "}
               <a
