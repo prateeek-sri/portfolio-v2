@@ -15,10 +15,10 @@ const ProjectCard = () => {
   const data = [
     {
       id: 1,
-      image: nova,
-      title: "Nova",
-      description: "Nova is a RAG AI chatbot.",
-      link: "https://nova-weld-sigma.vercel.app/",
+      image: cibi,
+      title: "Civic Bridge",
+      description: "Unites residents and authorities by providing issue tracking.",
+      link: "https://cibi-beige.vercel.app/",
       target: "_blank",
     },
     {
@@ -39,10 +39,10 @@ const ProjectCard = () => {
     },
     {
       id: 4,
-      image: bunk,
-      title: "Should I Bunk",
-      description: "A tool to keep tracks of your bunks.",
-      link: "https://should-i-bunk-eight.vercel.app/",
+      image: jobify,
+      title: "Jobify",
+      description: "A tool that helps you get jobs.",
+      link: "https://jobify-nu-ecru.vercel.app/",
       target: "_blank",
     },
     {
