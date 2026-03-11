@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import nova from "@/public/work/nova.jpg";
+import cibi from "@/public/work/nova.jpg";
 import agri from "@/public/work/agrinova.jpg";
 import dice from "@/public/work/dice.jpg";
-import bunk from "@/public/work/bunk.jpg";
+import jobify from "@/public/work/bunk.jpg";
 import keepr from "@/public/work/keepr.jpg";
 import portfolio from "@/public/work/portfolio.jpg";
 import { useTheme } from "@/libs/ThemeContext";
